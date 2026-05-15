@@ -3,9 +3,9 @@ This is for Ecesis Investments **2026 Summer Power Systems Modeling Internship**
 - You are **required** to use **Python** for coding.
 - Requirements:
   - create your own github repository for result delivery
-  - a summary report for each assignment is required.
   - for python, create jupyter notebook file
-- **Due:** early delivey is welcomed.
+  - a summary report for each assignment is required
+- **Due: May 25 11:59pm ET**, early delivey is welcomed.
 - Hints:
   - make your code neat and self explanatory
   - in summary report, provide your insights and conclusions
@@ -19,6 +19,7 @@ In this assignment, you are given three constraint lists from different sources:
   - PJMISO market data
   - Dayzer
   - Panorama
+
 Each source represents constraints using slightly different structures. In particular, constraints are defined by **(facility, contingency)** pairs, but naming conventions and formatting may differ across datasets. Think of this as building a translation layer between three dialects of the same grid language.
 #### Output Requirements:
   - csv file with matched results (market_constraint, dayzer_constraint, pano_constraint)
@@ -44,7 +45,7 @@ Strong solutions typically combine:
 >
 > The company will provide access to a **Codex account** if you do not have access to any of the modern AI platform. Let us know if you need one.
 >
-> Data will be provied via Google Drive, please share your email with us so that we can give you access to the data.
+> Data will be provied via Google Drive: [Data - Assignment 2](https://drive.google.com/drive/folders/1lKNNsR1vi8CYPItp3i34QQdtX9eUQEdp?usp=sharing)
 
 
 Electricity demand changes over time by location, hour, weekday, season, and broader system conditions. In this project, each bus represents a location where load is measured, and each zone represents a group of related buses.
@@ -248,6 +249,7 @@ A power grid is not just a collection of nodes, but a living network of relation
 In this assignment, you are given:
   - **Bus** lists from Dayzer and Panorama (including metadata such as name, kV level, latitude, and longitude)
   - **Branch** lists from both sources, describing how buses are connected
+
 You can think of this as aligning two different maps of the same city, where street names may differ, but the structure of intersections and roads remains consistent.
 #### Output Requirements:
   - csv file with matched results (dayzer_bus, pano_bus, and extra columns you find useful)
@@ -260,4 +262,5 @@ Useful signals may include:
   - voltage levels
   - geographic proximity
   - network topology (how buses are connected)
+
 We are less interested in perfect accuracy and more interested in how you approach this problem.
