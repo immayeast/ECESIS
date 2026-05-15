@@ -1,5 +1,5 @@
 ## Introduction
-This is for Ecesis Investments **2026 Summer Power Systems Modeling Internship** recuriting. 
+This is for Ecesis Investments **2026 Summer Power Systems Modeling Internship** recruiting. 
 - You are **required** to use **Python** for coding.
 - Requirements:
   - create your own github repository for result delivery
