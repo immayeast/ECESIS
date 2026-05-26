@@ -1,14 +1,5 @@
 ## Introduction
 This is for Ecesis Investments **2026 Summer Power Systems Modeling Internship** recruiting. 
-- You are **required** to use **Python** for coding.
-- Requirements:
-  - create your own github repository for result delivery
-  - for python, create jupyter notebook file
-  - a summary report for each assignment is required
-- **Due: May 25 11:59pm ET**, early delivey is welcomed.
-- Hints:
-  - make your code neat and self explanatory
-  - in summary report, provide your insights and conclusions
 
 ## Main Submission Files
 
