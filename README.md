@@ -10,6 +10,86 @@ This is for Ecesis Investments **2026 Summer Power Systems Modeling Internship**
   - make your code neat and self explanatory
   - in summary report, provide your insights and conclusions
 
+## Main Submission Files
+
+The solution artifacts are organized under `solution/` by assignment. The main files to review or submit are:
+
+### Assignment 1: Constraint Mapping
+
+Primary notebooks:
+
+- `solution/assignment_1/notebooks/01_load_and_inspect_constraints.ipynb`
+- `solution/assignment_1/notebooks/02_advanced_matching_weak_supervision.ipynb`
+
+Primary final CSV:
+
+- `solution/assignment_1/solutions/constraint_matches_refined.csv`
+
+Supporting report:
+
+- `solution/assignment_1/summary_reports/assignment_1_report.md`
+
+### Assignment 2: Bus-Level Load Forecasting
+
+Primary notebooks:
+
+- `solution/assignment_2/notebooks/01_eda_and_data_structure.ipynb`
+- `solution/assignment_2/notebooks/02_baselines_and_features.ipynb`
+- `solution/assignment_2/notebooks/03_walk_forward_models.ipynb`
+- `solution/assignment_2/notebooks/04_evaluation_and_report.ipynb`
+- `solution/assignment_2/notebooks/07_final_model_selection.ipynb`
+
+Primary final CSVs:
+
+- `solution/assignment_2/outputs/final_model_validation_results.csv`
+- `solution/assignment_2/outputs/final_2025_holdout_results.csv`
+- `solution/assignment_2/outputs/final_retained_model_rationale.csv`
+- `solution/assignment_2/outputs/final_deferred_model_rationale.csv`
+
+Supporting reports:
+
+- `solution/assignment_2/summary_reports/assignment_2_summary_report_draft.md`
+- `solution/assignment_2/summary_reports/assignment_2_final_recommendation_update.md`
+- `solution/assignment_2/outputs/final_model_selection_summary.md`
+
+### Assignment 3: Bus Mapping via Network Structure
+
+Primary notebook:
+
+- `solution/assignment_3/notebooks/01_bus_mapping_graph_alignment.ipynb`
+
+Primary final CSV:
+
+- `solution/assignment_3/solutions/bus_mapping_results_review_validated.csv`
+
+If the reviewed validation file has not yet been generated, the provisional graph-aware mapping output is:
+
+- `solution/assignment_3/execution_outputs/bus_mapping_results.csv`
+
+Supporting reports:
+
+- `solution/assignment_3/reports/bus_mapping_summary.md`
+- `solution/assignment_3/reports/manual_review_validation_summary.md`
+
+Supporting evaluation files:
+
+- `solution/assignment_3/execution_outputs/bus_mapping_ablation_results.csv`
+- `solution/assignment_3/execution_outputs/bus_mapping_sensitivity_results.csv`
+- `solution/assignment_3/execution_outputs/bus_mapping_manual_reveiwed_extended.csv`
+- `solution/assignment_3/execution_outputs/one_to_one_resolution_diagnostics.csv`
+- `solution/assignment_3/execution_outputs/topology_contribution_summary.csv`
+- `solution/assignment_3/execution_outputs/distance_voltage_diagnostics.csv`
+
+### Assignment 3 Validation Note
+
+Assignment 3 has no provided ground-truth mapping labels. The graph-aware model output should therefore be described as a proposed mapping unless manually reviewed. The reviewed validation sample uses:
+
+- `1` = likely/correct match
+- `0` = incorrect match
+- `-1` = uncertain
+
+The final reviewed deliverable should be generated from the reviewed manual file and saved in `solution/assignment_3/solutions/`.
+
 ## Assignment 1: Constraint Mapping Across Data Sources 
 #### Estimated Time: 5 to 8 hours.
 #### Objective: map constraints across 3 different sources, identifying which entries correspond to the same underlying physical constraint
