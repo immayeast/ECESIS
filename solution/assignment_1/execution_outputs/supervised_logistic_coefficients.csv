@@ -1,0 +1,13 @@
+model,feature,coefficient
+LogisticRegression,score_gap_to_second_best,1.455971039233758
+LogisticRegression,confidence_label_encoded,1.085840006312538
+LogisticRegression,weighted_score,0.4180881287057589
+LogisticRegression,rule_score_v2,0.4180881287057589
+LogisticRegression,ambiguity_flag_numeric,0.23280289599746712
+LogisticRegression,contingency_score,0.22220898547093046
+LogisticRegression,interface_keyword_match,-0.03719020802404317
+LogisticRegression,voltage_match,-0.234381359535833
+LogisticRegression,voltage_near_match,-0.234381359535833
+LogisticRegression,zone_or_token_overlap,-0.2432451701858038
+LogisticRegression,facility_score,-0.3270915321630657
+LogisticRegression,rule_score_v1,-0.5094307535266327

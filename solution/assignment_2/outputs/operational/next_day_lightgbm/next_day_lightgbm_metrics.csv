@@ -1,0 +1,2 @@
+rows,mae,rmse,wmape,run_name,model
+288,7.2068057233796345,10.547943700656354,0.04367810127187319,next_day_lightgbm,lightgbm

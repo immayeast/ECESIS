@@ -1,0 +1,5 @@
+metric,value
+top_candidate_duplicate_pano_assignments_before_resolution,4490
+baseline_duplicate_pano_assignments_after_baseline_resolution,0
+lower_scoring_duplicates_marked_conflict_or_unmatched,2993
+final_duplicate_nonblank_pano_assignments,0

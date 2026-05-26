@@ -1,0 +1,9 @@
+{
+  "run_name": "next_month_rf",
+  "artifact_path": "/Users/kikkiliu/Documents/New project/ECESIS/solution/assignment_2/model_artifacts/next_month_rf.joblib",
+  "model_type": "random_forest",
+  "train_rows": 17272,
+  "bus_count": 8,
+  "zone_count": 2,
+  "runtime_seconds": 6.811
+}

@@ -1,0 +1,10 @@
+iteration,accepted_this_iteration,total_accepted,stage
+0,49,49,seed
+1,66,115,propagation
+2,71,186,propagation
+3,92,278,propagation
+4,127,405,propagation
+5,157,562,propagation
+6,159,721,propagation
+7,168,889,propagation
+8,170,1059,propagation

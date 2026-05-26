@@ -1,0 +1,14 @@
+dataset,column,row_count,missing_count,missing_percent,blank_string_count
+dayzer,CID,13813,0,0.0,0
+dayzer,NAME,13813,0,0.0,0
+market,CONSTRAINT,5230,0,0.0,0
+market,CONTINGENCY,5230,0,0.0,0
+market,TOZONE,5230,1027,19.64,0
+market,REPORTEDNAME,5230,0,0.0,0
+market,CONSTRAINTID,5230,0,0.0,0
+market,CONTINGENCYID,5230,0,0.0,0
+pano,PID,21963,0,0.0,0
+pano,Monitored Facility,21963,0,0.0,0
+pano,Contingency Name,21963,0,0.0,0
+pano,Earliest,21963,0,0.0,0
+pano,Latest,21963,0,0.0,0

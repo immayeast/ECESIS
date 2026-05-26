@@ -1,0 +1,6 @@
+case_type,dayzer_bus,pano_candidate,latlon_baseline_pano_bus,dayzer_kv,pano_kv,distance_km,name_score,topology_score,propagation_support_count,decision,reason
+high_confidence_clean_match,LPNSW_1_2,LPNSW_1KV_2,DESSW_138KV_1,1.0,1.0,4.124314071636192,0.8150000000000001,0.8400000000000001,3,accepted,"Strong voltage, score, and graph-aware evidence."
+latlon_baseline_failure_fixed,LPNSW_1_2,LPNSW_1KV_2,DESSW_138KV_1,1.0,1.0,4.124314071636192,0.8150000000000001,0.8400000000000001,3,accepted,Graph-aware final candidate differs from nearest-coordinate baseline and preserves electrical/topology consistency.
+topology_rescued_weak_name,VICTPORT_8,VICTPORT_138KV_1,VICTPORT_138KV_1,138.0,138.0,0.0274714235756978,0.5240384615384616,0.888888888888889,2,accepted,"Name evidence is moderate/weak, but voltage and local topology support the match."
+ambiguous_unresolved,BTE_2_5,BTE_345KV_2,BTE_18KV_4,345.0,345.0,0.2193092942366544,0.5083333333333333,0.8444444444444444,2,flagged,"Candidate remains ambiguous because of conflict, small score gap, or evidence conflict."
+voltage_conflict_rejected,CLO_C2,CLO_34KV_2,PRO_13KV_3,34.5,34.5,7.375195333749128,0.5125,0.5,0,rejected_or_replaced,Nearest-coordinate candidate has voltage conflict > 1 kV; graph-aware model avoids accepting that candidate as a clean final match.

@@ -1,0 +1,22 @@
+run_name: next_day_lightgbm
+model:
+  type: lightgbm
+forecast:
+  horizon: next_day
+train:
+  start_date: "2022-01-01"
+  end_date: "2022-03-31"
+predict:
+  start_date: "2022-04-01"
+  end_date: "2022-04-30"
+  forecast_created_at: "2022-03-31 23:00:00"
+data:
+  n_buses: 12
+  bus_selection_year: 2022
+clustering:
+  enabled: true
+  n_clusters: 4
+  use_gmm: false
+artifact_dir: model_artifacts
+output_dir: outputs/operational/next_day_lightgbm
+forecast_results_file: forecast_results.csv

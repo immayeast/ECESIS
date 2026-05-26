@@ -1,0 +1,8 @@
+model,status,feature_set,uses_gmm,runtime_seconds
+direct_hgb_raw_time,completed,raw_time,False,1.081
+direct_hgb_cyclical,completed,cyclical,False,1.097
+direct_xgb_cyclical,completed,cyclical,False,0.451
+direct_xgb_cyclical_kmeans,completed,clustered,False,0.358
+direct_catboost_cyclical_kmeans,completed,clustered,False,0.592
+zone_allocated_hgb,completed,hierarchical,False,
+bus_load_shape_clustering,completed,kmeans_gmm,True,

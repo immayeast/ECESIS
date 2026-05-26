@@ -1,0 +1,3 @@
+dataset,rows,columns,min_date,max_date,unique_timestamps_in_sample,unique_buses_in_sample,unique_zones_in_sample,unique_timestamps,unique_zones
+bus_metadata,331157941,9,2022-01-01,2025-01-01,90.0,10856.0,8.0,,
+zone_full,315153,14,2022-01-01,2025-12-31,,,,35017.0,9.0

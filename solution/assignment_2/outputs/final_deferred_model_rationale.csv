@@ -1,0 +1,7 @@
+model_family,reason
+Ridge / ElasticNet,"Retained in report as interpretable baselines, but underfit nonlinear demand structure."
+CatBoost,Deferred from expensive validation because it underperformed XGBoost/LightGBM in prototype.
+Direct HistGradientBoosting,"Useful prototype benchmark, but dominated by XGBoost/LightGBM."
+TCN / GRU / LSTM,Moved to future work because prototype sequence performance is weak and requires more tuning/compute.
+GMM as required feature,Kept as interpretive clustering; KMeans remains the default final cluster feature.
+Quantile LightGBM,Optional uncertainty layer after point-forecast evaluation; does not block final model choice.

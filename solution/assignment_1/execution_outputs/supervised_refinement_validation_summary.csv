@@ -1,0 +1,2 @@
+reviewed_rows,labeled_rows_used,positive_labels,negative_labels,uncertain_labels_excluded,model,supervised_match_rows,supervised_support_rows,every_pjmiso_row_present,expected_support_rows_present,accepted_below_050
+300,299,275,24,1,LogisticRegression,5230,10460,True,True,0

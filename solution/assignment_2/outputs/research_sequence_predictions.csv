@@ -1,0 +1,13 @@
+bus_id,zone_name,timestamp,date,he,actual_pd,predicted_pd,model,horizon
+CTZ_138KV_1,COAS,2022-04-01,2022-04-01,1,601.703,464.44858,research_tcn_lightweight,next_day
+DESSAU_138KV_1,SCEN,2022-04-01,2022-04-01,1,156.82,343.9297,research_tcn_lightweight,next_day
+DOWGEN_138KV_16,COAS,2022-04-01,2022-04-01,1,187.353,344.42612,research_tcn_lightweight,next_day
+SNDSW_138KV_1,SCEN,2022-04-01,2022-04-01,1,200.522,344.60132,research_tcn_lightweight,next_day
+CTZ_138KV_1,COAS,2022-04-01,2022-04-01,1,601.703,360.87677,research_gru_lightweight,next_day
+DESSAU_138KV_1,SCEN,2022-04-01,2022-04-01,1,156.82,284.52115,research_gru_lightweight,next_day
+DOWGEN_138KV_16,COAS,2022-04-01,2022-04-01,1,187.353,287.668,research_gru_lightweight,next_day
+SNDSW_138KV_1,SCEN,2022-04-01,2022-04-01,1,200.522,288.3084,research_gru_lightweight,next_day
+CTZ_138KV_1,COAS,2022-04-01,2022-04-01,1,601.703,352.6962,research_lstm_lightweight,next_day
+DESSAU_138KV_1,SCEN,2022-04-01,2022-04-01,1,156.82,311.957,research_lstm_lightweight,next_day
+DOWGEN_138KV_16,COAS,2022-04-01,2022-04-01,1,187.353,313.73346,research_lstm_lightweight,next_day
+SNDSW_138KV_1,SCEN,2022-04-01,2022-04-01,1,200.522,314.01657,research_lstm_lightweight,next_day

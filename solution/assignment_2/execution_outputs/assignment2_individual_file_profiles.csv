@@ -1,0 +1,9 @@
+dataset,kind,year,file,scope,rows,columns,row_groups,min_date,max_date,he_min,he_max,unique_timestamps,unique_zones,unique_buses,total_pd,mean_pd
+bus_sample_file,bus,2022,bus_load_2022.parquet,parquet_metadata_plus_first_200k_rows,78155181,9,75,2022-01-01,2022-12-31,1,24,24,8,8648.0,935143.246,9.117211301660346
+bus_sample_file,bus,2023,bus_load_2023.parquet,parquet_metadata_plus_first_200k_rows,81021606,9,78,2023-01-01,2023-12-31,1,23,23,8,9033.0,828942.1540000001,8.23678846172955
+bus_sample_file,bus,2024,bus_load_2024.parquet,parquet_metadata_plus_first_200k_rows,83956420,9,81,2024-01-01,2024-12-31,1,22,22,8,9249.0,975011.578,9.680993486506344
+bus_sample_file,bus,2025,bus_load_2025.parquet,parquet_metadata_plus_first_200k_rows,88024734,9,84,2025-01-01,2025-12-31,1,21,21,8,9669.0,941398.338,9.46785547766793
+zone_full_file,zone,2022,zone_load_2022.parquet,full_file,78786,14,1,2022-01-01,2022-12-31,1,24,8754,9,,427582100.358,5427.13299771533
+zone_full_file,zone,2023,zone_load_2023.parquet,full_file,78777,14,1,2023-01-01,2023-12-31,1,24,8753,9,,443184168.271,5625.806622123209
+zone_full_file,zone,2024,zone_load_2024.parquet,full_file,79002,14,1,2024-01-01,2024-12-31,1,24,8778,9,,460705230.98,5831.564150021519
+zone_full_file,zone,2025,zone_load_2025.parquet,full_file,78588,14,1,2025-01-01,2025-12-31,1,24,8732,9,,489596214.76100004,6229.910606721129

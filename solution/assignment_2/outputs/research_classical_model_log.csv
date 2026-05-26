@@ -1,0 +1,5 @@
+model,family,status,runtime_seconds,interpretability
+research_ridge_cyclical_kmeans,ridge,completed,0.111,high
+research_elasticnet_cyclical_kmeans,elasticnet,completed,0.419,high
+research_random_forest_cyclical_kmeans,random_forest,completed,17.295,medium
+research_lightgbm_cyclical_kmeans,lightgbm,completed,0.652,medium

@@ -1,0 +1,3 @@
+purpose,start_date,end_date,rule
+training_history,2022-01-01,2024-12-31,May be used for model fitting and historical feature creation.
+test_target_holdout,2025-01-01,2025-12-31,Do not use for training; reserve for next-day and next-month evaluation targets.

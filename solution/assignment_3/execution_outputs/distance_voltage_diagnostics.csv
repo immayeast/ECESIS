@@ -1,0 +1,14 @@
+section,metric,value
+distance,matched_mean_distance_km,4.934215207101338
+distance,matched_median_distance_km,3.4938109523118133
+distance,matched_p90_distance_km,12.275836538470047
+distance,matched_max_distance_km,31.56819752564852
+distance,high_confidence_median_distance_km,2.974380110109361
+voltage,ambiguous_exact_voltage_match_rate,0.9897896039603961
+voltage,ambiguous_voltage_conflict_rate_gt_1kv,0.0024752475247524753
+voltage,high_exact_voltage_match_rate,1.0
+voltage,high_voltage_conflict_rate_gt_1kv,0.0
+voltage,low_exact_voltage_match_rate,0.9952283571915473
+voltage,low_voltage_conflict_rate_gt_1kv,0.0013633265167007499
+voltage,medium_exact_voltage_match_rate,0.9186602870813397
+voltage,medium_voltage_conflict_rate_gt_1kv,0.0023923444976076554

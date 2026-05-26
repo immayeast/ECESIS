@@ -1,0 +1,9 @@
+file,kind,size_mb
+data/Assignment 2 - forecast/bus_load_2022.parquet,bus,393.21
+data/Assignment 2 - forecast/bus_load_2023.parquet,bus,408.12
+data/Assignment 2 - forecast/bus_load_2024.parquet,bus,423.53
+data/Assignment 2 - forecast/bus_load_2025.parquet,bus,444.85
+data/Assignment 2 - forecast/zone_load_2022.parquet,zone,1.19
+data/Assignment 2 - forecast/zone_load_2023.parquet,zone,1.16
+data/Assignment 2 - forecast/zone_load_2024.parquet,zone,1.17
+data/Assignment 2 - forecast/zone_load_2025.parquet,zone,1.17

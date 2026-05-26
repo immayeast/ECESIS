@@ -1,0 +1,5 @@
+category,model,basis,value
+best_performing_next_day_bus,direct_xgb_cyclical_kmeans,lowest next-day bus-level WMAPE,0.03879530324536929
+most_stable_bus_wmape,baseline_historical_mean,lowest standard deviation of bus-level WMAPE across horizons,0.0013985760275796802
+most_interpretable,baseline_lag_168h,simple previous-week same-hour rule,
+most_structurally_informative,direct_xgb_cyclical_kmeans,uses cyclical temporal encodings and demand-archetype cluster labels,

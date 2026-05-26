@@ -1,0 +1,22 @@
+# Local/raw data
+data/Assignment 2 - forecast/
+
+# macOS metadata
+.DS_Store
+**/.DS_Store
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Model training scratch output
+catboost_info/
+
+# Local model artifacts
+solution/assignment_2/model_artifacts/
+
+# Large generated matching artifacts
+solution/assignment_1/execution_outputs/advanced_candidate_pairs.csv
+solution/assignment_1/execution_outputs/trained_match_predictions.csv
+solution/assignment_1/execution_outputs/supervised_candidate_predictions.csv
+solution/assignment_3/execution_outputs/bus_candidate_pairs*.csv

@@ -1,0 +1,14 @@
+file,column,dtype,non_null_count,example_value
+dayzer,CID,int64,13813,1
+dayzer,NAME,object,13813,Eastern Interface
+market,CONSTRAINT,object,5230,NOTTINGH 230 KV NOTTINGHM 2-3 SER DEV
+market,CONTINGENCY,object,5230,L500.CONASTONE-PEACHBOTTOM.5012
+market,TOZONE,object,4203,PENELEC
+market,REPORTEDNAME,object,5230,NOTTINGHM 2-3 SER DEV       A  230 KV
+market,CONSTRAINTID,int64,5230,10002384305
+market,CONTINGENCYID,int64,5230,10002493264
+pano,PID,int64,21963,1
+pano,Monitored Facility,object,21963,CHIC_AVE 138KV - PRAXAIR3 138KV (CHIC_AVE 138 KV CHI-PRA2)
+pano,Contingency Name,object,21963,L765.Dumont-WiltonCenter.11215
+pano,Earliest,object,21963,2017-06-29 00:00:00-04:00
+pano,Latest,object,21963,2026-04-28 23:00:00-04:00

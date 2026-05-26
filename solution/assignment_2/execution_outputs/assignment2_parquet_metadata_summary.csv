@@ -1,0 +1,9 @@
+file,kind,rows,row_groups,columns
+bus_load_2022.parquet,bus,78155181,75,"id, bus_unique_id, bus_type, base_kv, zone_name, pd, pg, date, he"
+bus_load_2023.parquet,bus,81021606,78,"id, bus_unique_id, bus_type, base_kv, zone_name, pd, pg, date, he"
+bus_load_2024.parquet,bus,83956420,81,"id, bus_unique_id, bus_type, base_kv, zone_name, pd, pg, date, he"
+bus_load_2025.parquet,bus,88024734,84,"id, bus_unique_id, bus_type, base_kv, zone_name, pd, pg, date, he"
+zone_load_2022.parquet,zone,78786,1,"zone_name, pd, pg, load_bus_count, gen_bus_count, date, he"
+zone_load_2023.parquet,zone,78777,1,"zone_name, pd, pg, load_bus_count, gen_bus_count, date, he"
+zone_load_2024.parquet,zone,79002,1,"zone_name, pd, pg, load_bus_count, gen_bus_count, date, he"
+zone_load_2025.parquet,zone,78588,1,"zone_name, pd, pg, load_bus_count, gen_bus_count, date, he"

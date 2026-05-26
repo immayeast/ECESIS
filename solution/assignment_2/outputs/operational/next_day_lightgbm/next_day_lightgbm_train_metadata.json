@@ -1,0 +1,9 @@
+{
+  "run_name": "next_day_lightgbm",
+  "artifact_path": "/Users/kikkiliu/Documents/New project/ECESIS/solution/assignment_2/model_artifacts/next_day_lightgbm.joblib",
+  "model_type": "lightgbm",
+  "train_rows": 25908,
+  "bus_count": 12,
+  "zone_count": 3,
+  "runtime_seconds": 1.133
+}

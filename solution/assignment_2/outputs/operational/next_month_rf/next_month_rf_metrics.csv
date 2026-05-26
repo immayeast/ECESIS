@@ -1,0 +1,2 @@
+rows,mae,rmse,wmape,run_name,model
+5284,39.835792465619264,56.78594823379154,0.17202059228748443,next_month_rf,random_forest

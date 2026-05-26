@@ -1,0 +1,4 @@
+fold_name,purpose,scope,train_rows,validation_rows,bus_count,zone_count
+validate_2022_to_2023,expanded_validation,deterministic_6_bus_subset,52524,52518,6,2
+validate_2022_2023_to_2024,expanded_validation,deterministic_6_bus_subset,105042,52668,6,2
+holdout_2022_2024_to_2025,final_holdout,deterministic_6_bus_subset,157710,52392,6,2

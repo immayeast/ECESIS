@@ -1,0 +1,3 @@
+topic,summary
+graph_spatial_future_work,"A future graph-aware extension could connect buses to zones and zones to neighboring zones, then add graph aggregation features such as neighboring-zone lagged load, zone residual smoothing, or bus-zone hierarchy embeddings. A full graph neural network is left as future work because topology data are not yet available in Assignment 2."
+sequence_model_scope,"TCN, GRU, and LSTM are implemented as lightweight exploratory day-ahead sequence models. They are not tuned and are intended to compare inductive bias and compute cost against engineered-feature boosting."

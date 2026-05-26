@@ -1,0 +1,17 @@
+model,kmeans_cluster,abs_error
+research_elasticnet_cyclical_kmeans,0,25.51985913499769
+research_elasticnet_cyclical_kmeans,1,21.770694279772982
+research_elasticnet_cyclical_kmeans,2,28.843863431159715
+research_elasticnet_cyclical_kmeans,3,64.66786670983394
+research_lightgbm_cyclical_kmeans,0,4.398574299601606
+research_lightgbm_cyclical_kmeans,1,14.947794116770266
+research_lightgbm_cyclical_kmeans,2,25.584901963198675
+research_lightgbm_cyclical_kmeans,3,39.764209532299034
+research_random_forest_cyclical_kmeans,0,5.135196214379581
+research_random_forest_cyclical_kmeans,1,13.606385587463974
+research_random_forest_cyclical_kmeans,2,19.786805330234166
+research_random_forest_cyclical_kmeans,3,19.47189396379815
+research_ridge_cyclical_kmeans,0,26.24656965237065
+research_ridge_cyclical_kmeans,1,22.340945659080127
+research_ridge_cyclical_kmeans,2,28.751714499433547
+research_ridge_cyclical_kmeans,3,63.87581582511773

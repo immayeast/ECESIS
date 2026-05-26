@@ -1,0 +1,2 @@
+n_buses,n_clusters,kmeans_inertia,kmeans_silhouette,gmm_available,gmm_aic,gmm_bic
+20,4,88.99071635035924,0.43312804776278907,True,-1907.693612611707,-614.237389265073

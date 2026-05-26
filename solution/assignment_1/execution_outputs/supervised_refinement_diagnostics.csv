@@ -1,0 +1,15 @@
+metric,value
+cv_accuracy_mean,0.7657062146892655
+cv_accuracy_std,0.037855889939044124
+cv_precision_mean,0.9683418031244118
+cv_precision_std,0.02674243960487292
+cv_recall_mean,0.7709090909090909
+cv_recall_std,0.02466301812045553
+cv_f1_mean,0.8582304348675978
+cv_f1_std,0.02269430980629402
+model,LogisticRegression
+labeled_rows_used,299
+positive_labels,275
+negative_labels,24
+excluded_uncertain_labels,1
+training_error_or_fallback,

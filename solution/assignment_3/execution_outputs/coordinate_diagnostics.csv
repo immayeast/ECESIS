@@ -1,0 +1,3 @@
+source,row_count,missing_latitude,missing_longitude,missing_either_coordinate,coordinate_coverage_pct,invalid_nonmissing_coordinate_range,zero_coordinate_rows,duplicate_coordinate_rows,latitude_min,latitude_max,longitude_min,longitude_max
+dayzer,10799,681,681,681,93.69,0,0,3305,25.88909912,35.6230011,-104.8146973,-94.35209656
+pano,10233,0,0,0,100.0,0,0,0,25.9101433,35.654207538248,-104.5378552834279,-94.35853734208428

@@ -1,0 +1,20 @@
+dataset,check,value,notes
+dayzer,duplicate_full_rows,0,Rows duplicated across all columns
+dayzer,duplicate_identifier_CID,0,Duplicate values in an identifier-like column
+dayzer,leading_or_trailing_spaces_NAME,0,Text values that change after stripping whitespace
+market,duplicate_full_rows,0,Rows duplicated across all columns
+market,duplicate_identifier_CONSTRAINTID,2520,Duplicate values in an identifier-like column
+market,duplicate_identifier_CONTINGENCYID,4160,Duplicate values in an identifier-like column
+market,leading_or_trailing_spaces_CONSTRAINT,0,Text values that change after stripping whitespace
+market,leading_or_trailing_spaces_CONTINGENCY,0,Text values that change after stripping whitespace
+market,leading_or_trailing_spaces_TOZONE,0,Text values that change after stripping whitespace
+market,leading_or_trailing_spaces_REPORTEDNAME,0,Text values that change after stripping whitespace
+pano,duplicate_full_rows,0,Rows duplicated across all columns
+pano,duplicate_identifier_PID,0,Duplicate values in an identifier-like column
+pano,leading_or_trailing_spaces_Monitored Facility,0,Text values that change after stripping whitespace
+pano,leading_or_trailing_spaces_Contingency Name,0,Text values that change after stripping whitespace
+pano,leading_or_trailing_spaces_Earliest,0,Text values that change after stripping whitespace
+pano,leading_or_trailing_spaces_Latest,0,Text values that change after stripping whitespace
+pano,unparseable_datetime_Earliest,0,Date/time values that could not be parsed
+pano,unparseable_datetime_Latest,0,Date/time values that could not be parsed
+pano,latest_before_earliest,0,Rows where Latest occurs before Earliest
